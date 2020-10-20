@@ -1,0 +1,1 @@
+("7.8" racket ("32abf28eaf5ba14a18c839f7ad4dfcb08a0d6170" . "bba77dfff2b181ef334e0df583aee7a785282d49") #"D:\\Code\\tetris-scheme\\display\\tetris-brushes.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"gui" #"lang" #"reader.rkt") (collects #"racket" #"gui.rkt") (collects #"racket" #"runtime-config.rkt"))

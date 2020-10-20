@@ -1,0 +1,19 @@
+#lang racket/gui
+(provide draw)
+
+(define (draw)
+  (send frame show #t))
+
+(define frame (new frame%
+                   [label "Example"]
+                   [width 300]
+                   [height 300]))
+
+
+
+(new canvas% [parent frame]
+             [paint-callback
+              (lambda (canvas dc)
+                (send dc set-scale 3 3)
+                (send dc set-text-foreground "red")
+                (send dc draw-rectangle 200 100 0 0))])
